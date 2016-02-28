@@ -16,8 +16,8 @@ var api = new ParseServer({
   appId: process.env.APP_ID || 'myID',
   masterKey: process.env.MASTER_KEY || 'mykey',
   fileKey: process.env.FILE_KEY,
-  //dotNETKey: process.env.DOTNET_KEY,
- // clientKey: process.env.CLIENT_KEY,
+  dotNETKey: process.env.DOTNET_KEY,
+  clientKey: process.env.CLIENT_KEY,
   javascriptKey: process.env.JAVASCRIPT_KEY
   //Add your master key here. Keep it secret!
 });
